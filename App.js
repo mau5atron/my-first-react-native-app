@@ -5,7 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Wow! This is my first react native app!</Text>
+        <Text style={{color: 'white'}}>Wow! This is my first react native app!</Text>
       </View>
     );
   }
@@ -14,7 +14,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'black',
     alignItems: 'center',
     justifyContent: 'center',
   },
